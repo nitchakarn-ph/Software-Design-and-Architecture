@@ -1,0 +1,57 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Adapter;
+
+import java.util.HashMap;
+import java.util.*;
+/**
+ *
+ * @author boonjv
+ */
+import java.util.Vector;
+
+/**
+ *
+ * @author boonjv
+ */
+public class Database {
+
+    private Vector employees; //Stores the employees
+
+    public Database() {
+        employees = new Vector();
+    }
+    
+    HashMap<String, Employee> map;
+    private static Scanner keyboard = new Scanner(System.in);
+
+    public Employee add(Employee input)
+    {
+        return map.put(input.getEmployeeName(), input);
+    }
+    
+    public static Employee userInputByName() 
+    {
+        // String temp is for some reason needed. If it is not included
+        // The code will not execute properly.
+        String temp = keyboard.nextLine();
+        Employee em = null;
+        System.out.println("Please enter the Employee Name:");
+        String employeeName = keyboard.nextLine();
+
+        return em = new Employee(employeeName, employeeName, 0, 0);
+
+    }
+    
+    public boolean deleteEmployee(long emp_num) {
+    	 if (employees.contains(emp_num)) {
+             return employees.remove(emp_num); // if it is there remove and return.
+    	 } else {
+             return (Boolean) null; // if its not there return nothing.
+         }
+    }
+
+}

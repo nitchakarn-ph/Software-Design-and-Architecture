@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\Work\ปี3 เทอม1\SC313002 Principles of Software Design and Development\Work\Lab Work 6\.metadata\.plugins\org.eclipse.jdt.core
+113558702.index
+3313164916.index

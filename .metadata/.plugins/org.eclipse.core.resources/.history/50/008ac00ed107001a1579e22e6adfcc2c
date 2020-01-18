@@ -1,0 +1,17 @@
+package task_1;
+
+public class PancakeHouseMenuIterator_1 implements Iterator_1 {
+
+	@Override
+	public void hashNext() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void next() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

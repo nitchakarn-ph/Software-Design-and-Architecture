@@ -1,0 +1,58 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Adapter;
+
+public class Employee {
+    private String name;
+    private String sname;
+    private long employ_num;
+    private double salary;
+ 
+    public Employee(String name, String sname, long employ_num, double salary) {
+        this.name = name;
+        this.sname = sname;
+        this.employ_num = employ_num;
+        this.salary = salary;
+    }
+
+    public Employee() {
+		
+	}
+
+	public String getName() {
+        return name;
+    }
+ 
+    public String getSurname() {
+        return sname;
+    }
+
+    public long getEmpNum() {
+        return employ_num;
+    }
+  
+    public double getSalary() {
+        return salary;
+    }
+    
+    public String toString() {
+        return "\t\t\tEmployee\n" +
+               "********************************************************************\n"+
+               "Employee Name: " + name +"\n" + 
+               "Employee Surname: " + sname + "\n" +  
+               "Employee Id: " + employ_num + "\n"+  
+               "Employee Salary: " + salary;
+    }
+
+	public String getEmployeeName() {
+		return null;
+	}
+
+	public void request() {
+		
+	}
+  
+}

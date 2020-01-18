@@ -1,0 +1,18 @@
+package Facade;
+
+public class Tea {
+	private String tea;
+	
+	public Tea(String tea) {
+		this.tea=tea;
+	}
+
+	public String getTea() {
+		return tea;
+	}
+
+	public void setTea(String tea) {
+		this.tea = tea;
+	}
+	
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=newl3/src&lt;newl3{Observer.java[Observer" modifiers="513" timestamp="1565296748560"/>
+    <typeInfo handle="=Guitar/src&lt;{Observer.java[Observer" modifiers="513" timestamp="1565298984334"/>
+    <typeInfo handle="=ExamMid/C:\/Program Files\/Java\/jdk-12.0.2\/lib\/jrt-fs.jar`jdk.hotspot.agent&lt;sun.jvm.hotspot.debugger.windbg(WindbgDebugger.class[WindbgDebugger" modifiers="1537" timestamp="1564312499071"/>
+    <typeInfo handle="=ExamMid/src&lt;AbstractFactory{Window.java[Window" modifiers="513" timestamp="1569722143126"/>
+    <typeInfo handle="=ExamMid/src&lt;Stategy{QuackBehavior.java[QuackBehavior" modifiers="513" timestamp="1569942263795"/>
+    <typeInfo handle="=ExamMid/src&lt;Stategy{FlyBehavior.java[FlyBehavior" modifiers="513" timestamp="1569941772019"/>
+    <typeInfo handle="=ExamMid/src&lt;Observer{Observer.java[Observer" modifiers="513" timestamp="1569981957284"/>
+    <typeInfo handle="=ExamMid/src&lt;Observer{Display.java[Display" modifiers="513" timestamp="1569981981958"/>
+    <typeInfo handle="=IteratorPattern/src&lt;Lab8_HW{Iterator.java[Iterator" modifiers="513" timestamp="1571279549584"/>
+    <typeInfo handle="=IteratorPattern/src&lt;{Iterator.java[Iterator" modifiers="513" timestamp="1571237137804"/>
+    <typeInfo handle="=HomeWork01/C:\/Program Files\/Java\/jdk-12.0.2\/lib\/jrt-fs.jar`java.xml&lt;com.sun.org.apache.xerces.internal.impl(XMLDocumentFragmentScannerImpl$Driver.class[Driver" modifiers="1548" timestamp="1564312499071"/>
+    <typeInfo handle="=HomeWork01/C:\/Program Files\/Java\/jdk-12.0.2\/lib\/jrt-fs.jar`java.naming&lt;javax.naming.ldap(Control.class[Control" modifiers="1537" timestamp="1564312499071"/>
+    <typeInfo handle="=HomeWork01/src&lt;{WeaponBehavior.java[WeaponBehavior" modifiers="513" timestamp="1571543943479"/>
+    <typeInfo handle="=HomeWork01/src&lt;ObserverPatternController{Observer.java[Observer" modifiers="513" timestamp="1571573985931"/>
+    <typeInfo handle="=HomeWork01/src&lt;ObserverPatternController{Driver.java[Driver" modifiers="513" timestamp="1571574765330"/>
+    <typeInfo handle="=HomeWork01/C:\/Program Files\/Java\/jdk-12.0.2\/lib\/jrt-fs.jar`java.sql&lt;java.sql(Driver.class[Driver" modifiers="1537" timestamp="1564312499071"/>
+    <typeInfo handle="=FactoryPattern_Lab3_2/C:\/Program Files\/Java\/jdk-12.0.2\/lib\/jrt-fs.jar`java.desktop&lt;com.sun.media.sound(SoftResampler.class[SoftResampler" modifiers="1537" timestamp="1564312499071"/>
+    <typeInfo handle="=FactoryPattern_Lab3_2/src&lt;{GPU.java[GPU" modifiers="513" timestamp="1572979070975"/>
+    <typeInfo handle="=FactoryPattern_Lab3_2/src&lt;{Display.java[Display" modifiers="513" timestamp="1572979060242"/>
+    <typeInfo handle="=FactoryPattern_Lab3_2/src&lt;{Payment.java[Payment" modifiers="513" timestamp="1572979049142"/>
+    <typeInfo handle="=FactoryPattern_Lab3_2/src&lt;{Cabinet.java[Cabinet" modifiers="513" timestamp="1572979030540"/>
+    <typeInfo handle="=FactoryPattern_Lab3_2/src&lt;{OS.java[OS" modifiers="513" timestamp="1572979082830"/>
+    <typeInfo handle="=FactoryPattern_Lab3_2/src&lt;{SlotIngredientFactory.java[SlotIngredientFactory" modifiers="513" timestamp="1572981569826"/>
+    <typeInfo handle="=Lab8_task_1/src&lt;{Iterator.java[Iterator" modifiers="513" timestamp="1573846451008"/>
+</typeInfoHistroy>

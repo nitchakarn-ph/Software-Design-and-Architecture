@@ -1,0 +1,7 @@
+package Facade;
+
+public class Water {
+	public void boilWater() {
+		System.out.println("boiling the water. . . ");
+	}
+}

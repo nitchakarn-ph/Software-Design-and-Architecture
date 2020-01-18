@@ -1,0 +1,30 @@
+package task_1;
+
+public class PancakeHouseMenuIterator_1 implements Iterator_1 {
+
+	MenuItem_1[] itemsBK;
+	int position = 0;
+	
+	public PancakeHouseMenuIterator_1(MenuItem_1[] items) {
+		this.itemsBK = items;
+		
+	}
+	@Override
+	public boolean hasNext() {
+		if (position >= itemsBK.length || itemsBK[position] == null) {
+			 return false;
+		} else {
+			 return true;
+		}
+
+	}
+
+	@Override
+	public Object next() {
+		MenuItem_1 menuItem = itemsBK[position];
+		 position = position + 1;
+		 return menuItem;
+
+	}
+
+}

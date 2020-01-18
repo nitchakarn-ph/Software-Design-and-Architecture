@@ -1,0 +1,24 @@
+package task_1;
+
+public class Waitress_1 {
+
+	public void printMenu() {
+		
+	}
+	
+	public void printBreakfastMenu() {
+		
+	}
+	
+	public void printLunchMenu() {
+		
+	}
+	
+	public void printVegetarianMenu() {
+		
+	}
+	
+	public boolean isItemVegetarian(String name) {
+		return false;
+	}
+}

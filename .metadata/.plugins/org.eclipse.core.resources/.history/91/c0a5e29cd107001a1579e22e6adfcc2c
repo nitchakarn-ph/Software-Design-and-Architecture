@@ -1,0 +1,17 @@
+package task_1;
+
+public class DinnerMenuIterator_1 implements Iterator_1 {
+
+	@Override
+	public void hasNext() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void next() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

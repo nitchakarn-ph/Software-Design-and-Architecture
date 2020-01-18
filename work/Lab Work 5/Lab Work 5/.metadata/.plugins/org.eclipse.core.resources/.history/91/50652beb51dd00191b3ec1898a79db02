@@ -1,0 +1,6 @@
+package Task1_Command;
+
+public interface Command {
+	public void undo();
+	public void redo();
+}

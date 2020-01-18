@@ -1,0 +1,14 @@
+package Facade;
+
+public class TeaInfuser {
+	private Tea tea;
+	
+	public void setTeaInfuser(Tea tea) {
+		this.tea = tea;
+	}
+	
+	public void addTea(Tea tea) {
+		System.out.println("Makeing " + tea.getTea() + " tea.");
+	}
+	
+}

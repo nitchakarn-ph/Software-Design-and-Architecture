@@ -1,0 +1,10 @@
+package SingletonFactory;
+
+public class Main {
+	public static void main(String[] args) {
+		BarProducer t1 = new BarProducer(1);
+		BarProducer t2 = new BarProducer(2);
+		t1.start();
+		t2.start();
+	}
+}

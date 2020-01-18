@@ -1,0 +1,88 @@
+package task_1;
+
+import java.util.ArrayList;
+
+public class Waitress_1 {
+
+	//ArrayList breakfastItems ;
+	//MenuItem_1[] lunchItems ;
+	
+	PancakeHouseMenu_1 pancakeHouseMenu;
+	DinnerMenu_1 dinerMenu;
+	
+	public Waitress_1(PancakeHouseMenu_1 breakfastItem , DinnerMenu_1 lunchItem) {
+		this.pancakeHouseMenu = breakfastItem;
+		this.dinerMenu = lunchItem;
+		
+	}
+	
+	public void printMenu() {
+		/*PancakeHouseMenu_1 pancakeHouseMenu = new PancakeHouseMenu_1();
+		ArrayList breakfastItems = pancakeHouseMenu.getMenuItems();*/
+		/*for(int i=0;i<breakfastItems.size();i++) {
+			MenuItem_1 menuItem = (MenuItem_1)breakfastItems.get(i);
+		}*/
+		
+		/*DinnerMenu_1 dinnerMenu = new DinnerMenu_1();
+		MenuItem_1[] lunchItem = dinnerMenu.getMenuItems();*/
+		/*for(int i=0;i<lunchItems.length;i++) {
+			MenuItem_1 menuItem = lunchItems[i];
+		}*/
+		
+		Iterator_1 pancakeIterator = pancakeHouseMenu.createIterator();
+		Iterator_1 dinnerIterator = dinerMenu.createIterator();
+		System.out.println("MENU\n------\nBREAKFAST");
+		printMenu(pancakeIterator);
+		System.out.println("\nLUNCH");
+		printMenu(dinnerIterator);
+	}
+	
+	private void printMenu(Iterator_1 iterator) {
+		/*iterator = breakfastMenu.createIterator();
+		
+		while(iterator.hasNext()) {
+			MenuItem_1 menuItem = (MenuItem_1)iterator.next();
+		}
+		
+		iterator = lunchMenu.createIterator();
+		
+		while(iterator.hasNext()) {
+			MenuItem_1 menuItem = (MenuItem_1)iterator.next();
+		}*/
+		
+		while(iterator.hasNext()) {
+			MenuItem_1 menuItem = (MenuItem_1)iterator.next();
+			System.out.println(menuItem.getName() + ", ");
+			System.out.println(menuItem.getPrice() + " -- ");
+			System.out.println(menuItem.getDescription());
+		}
+	}
+	
+	public void printBreakfastMenu() {
+		for (int i = 0; i < breakfastItems.size(); i++) {
+			 MenuItem_1 menuItem = (MenuItem_1)breakfastItems.get(i);
+			 System.out.print(menuItem.getName() + " ");
+			 System.out.println(menuItem.getPrice() + " ");
+			 System.out.println(menuItem.getDescription());
+		}
+	}
+	
+	public void printLunchMenu() {
+		for (int i = 0; i < lunchItems.length; i++) {
+			 MenuItem_1 menuItem = lunchItems[i];
+			 System.out.print(menuItem.getName() + " ");
+			 System.out.println(menuItem.getPrice() + " ");
+			 System.out.println(menuItem.getDescription());
+		}
+	}
+	
+	public void printVegetarianMenu() {
+		
+	}
+	
+	public boolean isItemVegetarian(String name) {
+		return false;
+	}
+	
+	
+}

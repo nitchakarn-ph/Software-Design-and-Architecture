@@ -1,0 +1,34 @@
+package task_1;
+
+import java.util.ArrayList;
+
+public class PancakeHouseMenuIterator_1 implements Iterator_1 {
+
+	private MenuITypeEnum type;
+	ArrayList<MenuItem_1> itemsBK;
+	int position = 0;
+	
+	public PancakeHouseMenuIterator_1(MenuITypeEnum ty ,ArrayList<MenuItem_1> items) {
+		this.type = ty;
+		this.itemsBK = items;
+	}
+	@Override
+	public boolean hasNext() {
+		
+		if (position >= itemsBK.length || itemsBK[position] == null) {
+			 return false;
+		} else {
+			 return true;
+		}
+
+	}
+
+	@Override
+	public Object next() {
+		MenuItem_1 menuItem = itemsBK[position];
+		 position = position + 1;
+		 return menuItem;
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package task_1;
+
+public class PancakeHouseMenuIterator_1 implements Iterator_1 {
+
+	MenuItem_1[] itemsBK;
+	int position = 0;
+	
+	public PancakeHouseMenuIterator_1(MenuItem_1[] items) {
+		
+	}
+	@Override
+	public void hasNext() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void next() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

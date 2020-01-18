@@ -1,0 +1,5 @@
+package Task2_SingletonFactory;
+
+public abstract class Bar {
+	public int id;
+}

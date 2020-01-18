@@ -1,0 +1,16 @@
+
+public class TeaCup {
+	private Water water;
+	
+	
+	public void addWater(Water water) {
+		this.water=water;
+	}
+	public void setSteepTime(int steepTime) {
+		System.out.println("Set the timer for steep "+ steepTime +" seconds.");
+	}
+	public void steep() {
+		System.out.println("Steeping. . .");
+		System.out.println("Your tea is ready.");
+	}
+}

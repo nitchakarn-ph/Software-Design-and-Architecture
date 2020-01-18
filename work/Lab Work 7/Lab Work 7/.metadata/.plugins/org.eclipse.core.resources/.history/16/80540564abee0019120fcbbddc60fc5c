@@ -1,0 +1,34 @@
+package Task2;
+
+public class Playing implements State {
+	private RemoteDevice remote;
+	
+	public Playing(RemoteDevice remote) {
+		this.remote = remote;
+	}
+
+	// Play button pressed
+	public boolean pressPlay() {
+		System.out.println("The player is already playing.");
+		
+		return false;
+	}
+
+	// Pause button pressed
+	public boolean pressPause() {
+		System.out.println("The player is paused.");
+		remote.setState(remote.getPausedState());
+		
+		return true;
+	}
+
+	// Stop button pressed
+	public boolean pressStop() {
+		System.out.println("The player is stopped.");
+		remote.setState(remote.getPlayingState());
+		remote.setPosition(0);
+
+		return true;
+	}
+
+}

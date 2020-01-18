@@ -1,0 +1,29 @@
+package Task1;
+
+public class WrapPrinter extends DrawingService implements Screen {
+	
+	@Override
+	public void draw_line(int x1, int y1, int x2, int y2) {
+		System.out.printf("Print a line from (%d,%d) to (%d,%d)\n", x1,y1,x2,y2);
+	}
+
+	@Override
+	public void draw_pixel(int x, int y) {
+		System.out.printf("Print a pixel at (%d,%d)\n", x,y);
+	}
+
+	@Override
+	public void draw_circle(int x, int y, int r) {
+		System.out.printf("Print a circle at (%d,%d) with radius %d\n", x,y,r);
+	}
+
+	@Override
+	public void drawLine(int x1, int y1, int x2, int y2) {
+		this.draw_line(x1, y1, x2, y2);
+	}
+
+	@Override
+	public void drawCircle(int x, int y, int r) {
+		this.draw_circle(x, y, r);
+	}
+}
